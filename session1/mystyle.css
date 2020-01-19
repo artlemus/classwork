@@ -1,0 +1,22 @@
+p{
+    color:rgb(63, 52, 58);
+    background:rgb(214, 216, 170);
+  }
+  .myClass{
+      border:1px solid black;
+  }
+
+  #someId{
+      background-color:orange
+  }
+
+  h1{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 35px;
+      border-bottom: 2px solid black;
+  }
+
+  img{
+      width: 200px;
+      border: 3px solid orange;
+  }
