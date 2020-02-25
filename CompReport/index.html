@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mystyle.css" />
+    <title>Attack Video Game</title>
+  </head>
+  <body>
+    <header>
+      <h1>Attack Video Game</h1>
+    </header>
+    <main>
+      <div class="wrap">
+        <div class="square">
+          <p id="c1"></p>
+          <div id="imgc1"></div>
+          <br />
+          <button onclick="c1.attack (c2,select())">attack</button>
+        </div>
+        <div class="square">
+          <p id="c2"></p>
+          <div id="imgc2"></div>
+          <br />
+          <button onclick="c2.attack(c1,select())">attack</button>
+        </div>
+      </div>
+      <div class="console" id="console">
+       
+      </div>
+    </main>
+    <footer>all the rights reserved &copy; art lemus</footer>
+    <script src="script.js"></script>
+  </body>
+</html>

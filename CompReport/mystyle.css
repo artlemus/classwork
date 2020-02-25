@@ -1,0 +1,63 @@
+html{
+    background-color: rgb(73, 105, 83);
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/thumb-1920-677271.png);
+    background-position: center;
+    border:solid; 
+    border-color: rgb(27, 27, 27);
+    border-radius: 25px;
+}
+
+.square{
+    flex-basis: 50%;
+    height:60vh;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    
+}
+
+
+.square img{
+    height: 30vh;
+   
+}
+
+.console{
+    color:white;
+    background-color: black;
+    height: 20vh;
+    width: 80%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border:solid; 
+    border-color: rgb(242, 245, 97);
+    text-indent: 1rem;
+    padding: 1rem;
+}
+
+footer{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+header{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(211, 45, 45);
+    color: black;
+    text-align: center;
+    width: 50%;
+    height: 5vh;
+    margin:1rem;
+    margin-top: 9rem;
+    font-size: 18px;
+    
+}
